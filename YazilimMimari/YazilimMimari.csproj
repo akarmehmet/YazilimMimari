@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Scripts\" />
+    <None Remove="Scripts\User\" />
+    <None Remove="Scripts\Decorator\" />
+    <None Remove="Scripts\Singleton\" />
+    <None Remove="Scripts\Utilities\" />
+    <None Remove="Scripts\ObserverPattern\" />
+    <None Remove="Scripts\UserAuthenticate\" />
+    <None Remove="Scripts\Match\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\" />
+    <Folder Include="Scripts\Users\" />
+    <Folder Include="Scripts\Decorator\" />
+    <Folder Include="Scripts\Singleton\" />
+    <Folder Include="Scripts\Utilities\" />
+    <Folder Include="Scripts\ObserverPattern\" />
+    <Folder Include="Scripts\UserAuthenticate\" />
+    <Folder Include="Scripts\Match\" />
+  </ItemGroup>
+</Project>
